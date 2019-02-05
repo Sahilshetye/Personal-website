@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.sahilshetye.com//</loc>
+    <lastmod>2019-02-01T08:32:03-06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>http://www.sahilshetye.com//post5.html</loc>
+      
+        <lastmod>2017-10-03T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://www.sahilshetye.com//post6.html</loc>
+      
+        <lastmod>2017-10-01T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+  
+  <url>
+    <loc>http://www.sahilshetye.com//404</loc>
+    
+      <lastmod>2019-02-01T08:32:03-06:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.sahilshetye.com//atom.xml</loc>
+    
+      <lastmod>2019-02-01T08:32:03-06:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.sahilshetye.com//blog</loc>
+    
+      <lastmod>2019-02-01T08:32:03-06:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.sahilshetye.com//</loc>
+    
+      <lastmod>2019-02-01T08:32:03-06:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.sahilshetye.com//projects</loc>
+    
+      <lastmod>2019-02-01T08:32:03-06:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.sahilshetye.com//sitemap.xml</loc>
+    
+      <lastmod>2019-02-01T08:32:03-06:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+</urlset>
