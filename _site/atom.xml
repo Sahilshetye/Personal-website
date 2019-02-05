@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+    <title type="text" xml:lang="en">Sahil Shetye</title>
+    <link type="application/atom+xml" rel="self" href="http://www.sahilshetye.com//atom.xml"/>
+  
+  <link href="http://www.sahilshetye.com//"/>
+  <id>http://www.sahilshetye.com//</id>
+  <updated>2019-02-01T08:32:03Z</updated>
+  <author>
+    <name>Sahil Shetye</name>
+    <email>sahilshetye2606@gmail.com</email>
+  </author>
+  <rights type="text">Copyright © 2019 Sahil Shetye. All rights reserved.</rights>
+  
+  <entry>
+  <title type="text">How to delete Expired/Saved  jobs from Linkedin</title>
+  <link rel="alternate" type="text/html" href="http://www.sahilshetye.com//post5.html" />
+  <id>http://www.sahilshetye.com//post5</id>
+  <published>2017-10-03T00:00:00Z</published>
+  <updated>2017-10-03T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Are you a person like me who has saved about 2000 jobs  with intention of applying to them and never got around it.</p>
+
+<p>Now I can no longer save additional job. I decided to delete all the expired jobs from the  saved section.But  the new linkedin is  crap and slow.  So what do we do?</p>
+
+<p>We delete the jobs by using smarts. And viola Jquery to the rescue. I observed that the  unsave  button had a fixed  property <strong>data-control</strong>.  I decided to coordinate  scroll down feature to enable the  loading of the data from ajax loading and then simulate  clicking.</p>
+
+<p>I achieved this by heading to <a href="https://www.linkedin.com/jobs/saved/">Saved Jobs page</a> and typing JS  in the Developer console which is present in  any modern browsers.I you dont know where to find it then  search for ways to open Developer tools. Once done then type below code  and  all your problems are solved</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">scrollBy</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1000</span><span class="p">);</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s2">"button[data-control-name='saved_job_unsave']"</span><span class="p">).</span><span class="nx">click</span><span class="p">()</span>
+    <span class="p">},</span><span class="mi">1000</span><span class="p">);</span></code></pre></figure>
+
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Lets try Blogging</title>
+  <link rel="alternate" type="text/html" href="http://www.sahilshetye.com//post6.html" />
+  <id>http://www.sahilshetye.com//post6</id>
+  <published>2017-10-01T00:00:00Z</published>
+  <updated>2017-10-01T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>This is my first post on this  Website so that I can atleast justify having a blog tab.</p>
+
+<p>Blogging is new to me and I will try my best to  make sure that I do a good job.</p>
+
+ ]]></content>
+</entry>
+
+
+
+</feed>
